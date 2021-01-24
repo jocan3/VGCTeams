@@ -1,0 +1,38 @@
+<div class="filters-header"></div>
+
+<div class="filters-container">
+	<form (ngSubmit)="onSubmit(filtersForm)" #filtersForm="ngForm">
+		<div class="form-group">
+		<div>
+				<mat-form-field>
+						<mat-select placeholder="Format" [(ngModel)]="selectedFormat" name="format">
+							<mat-option *ngFor="let format of formatList" [value]="format.name">
+								{{format.displayName}}
+							</mat-option>
+						</mat-select>
+					</mat-form-field>
+		</div>
+		<div>
+		<mat-form-field>
+		  <input class="form-control" name="startDate" matInput [matDatepicker]="startDate" placeholder="Start date" required [(ngModel)]="selectedStartDate">
+		  <mat-datepicker-toggle matSuffix [for]="startDate"></mat-datepicker-toggle>
+		  <mat-datepicker #startDate [touchUi]="isMobile()"></mat-datepicker>
+		</mat-form-field>
+	</div>
+	<div>
+		<mat-form-field>
+		  <input class="form-control" name="endDate" matInput [matDatepicker]="endDate" placeholder="End date" required [(ngModel)]="selectedEndDate">
+		  <mat-datepicker-toggle matSuffix [for]="endDate"></mat-datepicker-toggle>
+		  <mat-datepicker #endDate [touchUi]="isMobile()"></mat-datepicker>
+		</mat-form-field>
+	</div>
+	<div>
+		<mat-form-field>
+			<input matInput style="display: none" >
+			<mat-checkbox class="form-control" name="ladderReport"  [(ngModel)]="ladderReport">Top ladder users only</mat-checkbox>
+		</mat-form-field>
+	</div>
+	</div>
+	<button autofocus type="submit" [disabled]="!filtersForm.form.valid || !validDates()" mat-raised-button color="primary">Get teams!</button>
+	</form>
+</div>

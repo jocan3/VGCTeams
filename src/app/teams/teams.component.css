@@ -1,0 +1,51 @@
+.table-container {
+}
+
+p {
+  text-align: center;
+}
+
+.mat-sort-header-container {
+  justify-content:center;
+}
+
+.teams-search-input {
+  width: 33%;
+}
+
+.teams-search-input-container {
+  text-align: center;
+}
+
+.results-header {
+  line-height: 0.1cm;
+  text-align: right;
+
+  /* background-image: url("../../assets/images/Picture4.png");
+  background-repeat: no-repeat;
+  background-position-y: -90px; */
+}
+
+.mat-card { display:inline-block}
+
+.teams-row:hover {
+  background: #d3c7ea;
+}
+
+.loading-report-text {
+  margin-top: 1em;
+  text-align: center;
+  color: #673AB7;
+}
+ 
+@media only screen and (max-width: 500px) {
+  .teams-search-input {
+    width: 90%;
+  }
+  .teams-sprites-column {
+    flex: 1 1 40% !important;
+  }
+  .desktop-column {
+    display: none;
+  }
+}
