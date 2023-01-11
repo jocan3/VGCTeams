@@ -121,7 +121,7 @@ export class TeamsComponent implements OnInit, AfterViewInit {
     });
   }
   
-  seeData(data, lead): void {
+  seeData(data, lead, pokemonIds): void {
     if (data) {
       var dataStats = {};
       var columns = [];
@@ -166,9 +166,16 @@ export class TeamsComponent implements OnInit, AfterViewInit {
       let teamDataStats = new MatTableDataSource();
       teamDataStats.data = [dataStats];      
 
+      let vgcPokePasteBotCmd = '\n/search s1\n';
+      for (var i = 1; i <= pokemonIds.length; ++i) {
+        if (pokemonIds[i-1] != undefined) {
+          vgcPokePasteBotCmd += 'pokemon_' + i + ':' + pokemonIds[i-1] + '\n';
+        }
+      }
+
       let dialogRef = this.dialog.open(DataDialog, {
         width: '60em',
-        data: { teamData: teamData, columnsList: columns, dataStats: dataStats, leads: lead }
+        data: { teamData: teamData, columnsList: columns, dataStats: dataStats, leads: lead, vgcPokePasteBotCmd: vgcPokePasteBotCmd}
       });
     }
   }

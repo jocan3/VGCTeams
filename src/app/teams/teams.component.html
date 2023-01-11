@@ -77,7 +77,7 @@
       <mat-header-cell *matHeaderCellDef class="desktop-column"> Actions </mat-header-cell>
       <mat-cell [class.desktop-column]="!element.show_actions" *matCellDef="let element">
           <app-action-button icon="play_circle_filled" label="replays" (onClick)="seeBattleIds(element.battle_ids_wins, element.battle_ids_losses)"></app-action-button>
-          <app-action-button icon="bar_chart" label="data" (onClick)="seeData(element.data, element.lead)"></app-action-button>
+          <app-action-button icon="bar_chart" label="data" (onClick)="seeData(element.data, element.lead, element.pokemon_ids)"></app-action-button>
       </mat-cell>
     </ng-container>
 

@@ -1482,10 +1482,10 @@
 .sprite-xyicons.baxcalibur {background:transparent url(assets/images/998.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
 .sprite-xyicons.gimmighoul {background:transparent url(assets/images/999.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
 .sprite-xyicons.gholdengo {background:transparent url(assets/images/1000.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
-.sprite-xyicons.wo-chien {background:transparent url(assets/images/1001.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
-.sprite-xyicons.chien-pao {background:transparent url(assets/images/1002.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
-.sprite-xyicons.ting-lu {background:transparent url(assets/images/1003.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
-.sprite-xyicons.chi-yu {background:transparent url(assets/images/1004.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.wo-chien, .sprite-xyicons.wochien {background:transparent url(assets/images/1001.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.chien-pao, .sprite-xyicons.chienpao {background:transparent url(assets/images/1002.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.ting-lu, .sprite-xyicons.tinglu {background:transparent url(assets/images/1003.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.chi-yu, .sprite-xyicons.chiyu {background:transparent url(assets/images/1004.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
 .sprite-xyicons.roaringmoon {background:transparent url(assets/images/1005.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
 .sprite-xyicons.ironvaliant {background:transparent url(assets/images/1006.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
 .sprite-xyicons.koraidon {background:transparent url(assets/images/1007.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
