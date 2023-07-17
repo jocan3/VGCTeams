@@ -1495,7 +1495,31 @@
 .sprite-xyicons.taurospaldeawater, .sprite-xyicons.taurospaldea-water {background:transparent url(assets/images/128-a.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
 .sprite-xyicons.taurospaldeafire, .sprite-xyicons.taurospaldea-fire {background:transparent url(assets/images/128-b.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
 
-
+.sprite-xyicons.growlithe-hisui, .sprite-xyicons.growlithehisui {background:transparent url(assets/images/058-h.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.arcanine-hisui, .sprite-xyicons.arcaninehisui {background:transparent url(assets/images/059-h.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.voltorb-hisui, .sprite-xyicons.voltorbhisui {background:transparent url(assets/images/100-h.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.electrode-hisui, .sprite-xyicons.electrodehisui {background:transparent url(assets/images/101-h.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.typhlosion-hisui, .sprite-xyicons.typhlosionhisui {background:transparent url(assets/images/157-h.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.qwilfish-hisui, .sprite-xyicons.qwilfishhisui {background:transparent url(assets/images/211-h.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.sneasel-hisui, .sprite-xyicons.sneaselhisui {background:transparent url(assets/images/215-h.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.samurott-hisui, .sprite-xyicons.samurotthisui {background:transparent url(assets/images/503-h.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.lilligant-hisui, .sprite-xyicons.lilliganthisui {background:transparent url(assets/images/549-h.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.zorua-hisui, .sprite-xyicons.zoruahisui {background:transparent url(assets/images/570-h.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.zoroark-hisui, .sprite-xyicons.zoroarkhisui {background:transparent url(assets/images/571-h.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.braviary-hisui, .sprite-xyicons.braviaryhisui {background:transparent url(assets/images/628-h.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.sliggoo-hisui, .sprite-xyicons.sliggoohisui {background:transparent url(assets/images/705-h.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.goodra-hisui, .sprite-xyicons.goodrahisui {background:transparent url(assets/images/706-h.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.avalugg-hisui, .sprite-xyicons.avalugghisui {background:transparent url(assets/images/713-h.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.decidueye-hisui, .sprite-xyicons.decidueyehisui {background:transparent url(assets/images/724-h.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.wyrdeer {background:transparent url(assets/images/899.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.kleavor {background:transparent url(assets/images/900.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.ursaluna {background:transparent url(assets/images/901.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.basculegion {background:transparent url(assets/images/902.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.basculegionf, .sprite-xyicons.basculegion-f {background:transparent url(assets/images/902-f.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.sneasler {background:transparent url(assets/images/903.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.overqwil {background:transparent url(assets/images/904.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.enamorus {background:transparent url(assets/images/905.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.enamorustherian, .sprite-xyicons.enamorus-therian {background:transparent url(assets/images/905-t.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
 
 @media only screen and (max-width: 500px) {
     .sprite-xyicons {
