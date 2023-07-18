@@ -12,6 +12,26 @@ To generate `dist` folder to deploy into Production:
 
  `ng build --prod --bh ./`
 
+## Running Legacy app
+
+There may be issues running this webapp if you have installed the latest versions of NodeJS and angular-cli. Downgrading angular-cli version to 6.0.x may be required. The following commands will help to run this Angular 5 (legacy) app:
+
+ `npm install --legacy-peer-deps`
+
+ `npm uninstall -g @angular/cli`
+
+ `npm cache clean --force`
+
+ `npm install -g @angular/cli@6.0.8`
+
+ `ng serve --open`
+
+To generate dist files (build the webapp):
+
+ `export NODE_OPTIONS=--openssl-legacy-provider`
+
+ `ng build --prod --bh ./`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
