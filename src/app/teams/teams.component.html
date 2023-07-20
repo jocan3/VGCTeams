@@ -28,7 +28,7 @@
     </mat-form-field>
     </div>
 	</div>
-  <mat-table #table [dataSource]="dataSource" matSort matSortActive="relevance" matSortDirection="desc">
+  <mat-table #table [dataSource]="dataSource" matSort matSortActive="usage_ratio" matSortDirection="desc">
     <!-- Position Column -->
     <ng-container matColumnDef="team">
       <mat-header-cell *matHeaderCellDef class="teams-sprites-column"> Team </mat-header-cell>
@@ -39,28 +39,28 @@
       </mat-cell>
     </ng-container>
     <ng-container matColumnDef="usage_count">
-      <mat-header-cell *matHeaderCellDef mat-sort-header> Usage </mat-header-cell>
-      <mat-cell *matCellDef="let element" [class.desktop-column]="element.show_actions" (click)="showMobileActions(element)"> {{element.usage_count}} </mat-cell>
+      <mat-header-cell *matHeaderCellDef mat-sort-header class="desktop-column"> Usage </mat-header-cell>
+      <mat-cell *matCellDef="let element" class="desktop-column" (click)="showMobileActions(element)"> {{element.usage_count}} </mat-cell>
     </ng-container>
 
     <ng-container matColumnDef="win_count">
-      <mat-header-cell *matHeaderCellDef mat-sort-header> Win </mat-header-cell>
-      <mat-cell *matCellDef="let element" [class.desktop-column]="element.show_actions" (click)="showMobileActions(element)"> {{element.win_count}} </mat-cell>
+      <mat-header-cell *matHeaderCellDef mat-sort-header class="desktop-column"> Win </mat-header-cell>
+      <mat-cell *matCellDef="let element" class="desktop-column" (click)="showMobileActions(element)"> {{element.win_count}} </mat-cell>
     </ng-container>
 
     <ng-container matColumnDef="users_count">
-      <mat-header-cell *matHeaderCellDef mat-sort-header> Users </mat-header-cell>
-      <mat-cell *matCellDef="let element" [class.desktop-column]="element.show_actions" (click)="showMobileActions(element)"> {{element.users_count}} </mat-cell>
+      <mat-header-cell *matHeaderCellDef mat-sort-header class="desktop-column"> Users </mat-header-cell>
+      <mat-cell *matCellDef="let element" class="desktop-column" (click)="showMobileActions(element)"> {{element.users_count}} </mat-cell>
     </ng-container>
 
     <ng-container matColumnDef="win_ratio">
-        <mat-header-cell *matHeaderCellDef mat-sort-header class="desktop-column"> Win Ratio </mat-header-cell>
-        <mat-cell *matCellDef="let element" class="desktop-column"> {{element.win_ratio | number : '1.4' }} </mat-cell>
+        <mat-header-cell *matHeaderCellDef mat-sort-header> Win Ratio </mat-header-cell>
+        <mat-cell *matCellDef="let element" [class.desktop-column]="element.show_actions"> {{element.win_ratio | number : '1.4' }} </mat-cell>
       </ng-container>
 
       <ng-container matColumnDef="usage_ratio">
-          <mat-header-cell *matHeaderCellDef mat-sort-header class="desktop-column"> Usage Ratio </mat-header-cell>
-          <mat-cell *matCellDef="let element" class="desktop-column"> {{ element.usage_ratio | number : '1.4' }} </mat-cell>
+          <mat-header-cell *matHeaderCellDef mat-sort-header> Usage Ratio </mat-header-cell>
+          <mat-cell *matCellDef="let element"  [class.desktop-column]="element.show_actions"> {{ element.usage_ratio | number : '1.4' }} </mat-cell>
       </ng-container>
 
       <ng-container matColumnDef="ladder_rank">

@@ -25,7 +25,7 @@ export class AppComponent {
   }
 
   showMenu(): boolean {
-    return this.authService.isAuthenticated();
+    return true;
   }
 
 }
