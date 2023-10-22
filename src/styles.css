@@ -1493,7 +1493,7 @@
 
 .sprite-xyicons.taurospaldea {background:transparent url(assets/images/128-p.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
 .sprite-xyicons.taurospaldeawater, .sprite-xyicons.taurospaldea-water {background:transparent url(assets/images/128-a.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
-.sprite-xyicons.taurospaldeafire, .sprite-xyicons.taurospaldea-fire {background:transparent url(assets/images/128-b.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.taurospaldeafire, .sprite-xyicons.taurospaldea-fire, .sprite-xyicons.taurospaldea-blaze {background:transparent url(assets/images/128-b.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
 
 .sprite-xyicons.growlithe-hisui, .sprite-xyicons.growlithehisui {background:transparent url(assets/images/058-h.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
 .sprite-xyicons.arcanine-hisui, .sprite-xyicons.arcaninehisui {background:transparent url(assets/images/059-h.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
@@ -1520,6 +1520,18 @@
 .sprite-xyicons.overqwil {background:transparent url(assets/images/904.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
 .sprite-xyicons.enamorus {background:transparent url(assets/images/905.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
 .sprite-xyicons.enamorustherian, .sprite-xyicons.enamorus-therian {background:transparent url(assets/images/905-t.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+
+.sprite-xyicons.ursalunabloodmoon {background:transparent url(assets/images/901-b.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.dipplin {background:transparent url(assets/images/1011.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.poltchageist {background:transparent url(assets/images/1012.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.sinistcha, .sprite-xyicons.sinistchamasterpiece {background:transparent url(assets/images/1013.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.okidogi {background:transparent url(assets/images/1014.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.munkidori {background:transparent url(assets/images/1015.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.fezandipiti {background:transparent url(assets/images/1016.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.ogerpon {background:transparent url(assets/images/1017.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.ogerponwellspring {background:transparent url(assets/images/1017-w.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.ogerponhearthflame {background:transparent url(assets/images/1017-h.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.ogerponcornerstone {background:transparent url(assets/images/1017-c.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
 
 @media only screen and (max-width: 500px) {
     .sprite-xyicons {

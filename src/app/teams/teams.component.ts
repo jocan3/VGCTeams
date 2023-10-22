@@ -146,7 +146,8 @@ export class TeamsComponent implements OnInit, AfterViewInit {
               element[col] = {
                 moves: [],
                 abilities: [],
-                items: []
+                items: [],
+                teraTypes: []
               };
             }
           });
@@ -194,6 +195,7 @@ export class TeamsComponent implements OnInit, AfterViewInit {
       dataStats[col]['moves'] = dataStats[col]['moves'] ? dataStats[col]['moves'] : {};
       dataStats[col]['abilities'] = dataStats[col]['abilities'] ? dataStats[col]['abilities'] : {};
       dataStats[col]['items'] = dataStats[col]['items'] ? dataStats[col]['items'] : {};
+      dataStats[col]['teraTypes'] = dataStats[col]['teraTypes'] ? dataStats[col]['teraTypes'] : {};
 
       let values = element[col].moves;      
       values.forEach(value => {
@@ -222,6 +224,16 @@ export class TeamsComponent implements OnInit, AfterViewInit {
         }
       });
 
+      values = element[col].teraTypes;
+      if (Array.isArray(values)) {
+        values.forEach(value => {
+          if (dataStats[col].teraTypes[value]) {
+            dataStats[col].teraTypes[value]++;
+          } else {
+            dataStats[col].teraTypes[value] = 1;
+          }
+        });
+      }
 
     });
   }
