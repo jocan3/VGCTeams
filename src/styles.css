@@ -1533,6 +1533,16 @@
 .sprite-xyicons.ogerponhearthflame {background:transparent url(assets/images/1017-h.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
 .sprite-xyicons.ogerponcornerstone {background:transparent url(assets/images/1017-c.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
 
+.sprite-xyicons.walkingwake, .sprite-xyicons.walking-wake {background:transparent url(assets/images/1009.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.ironleaves, .sprite-xyicons.iron-leaves {background:transparent url(assets/images/1010.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.archaludon {background:transparent url(assets/images/1018.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.hydrapple {background:transparent url(assets/images/1019.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.gougingfire, .sprite-xyicons.gouging-fire {background:transparent url(assets/images/1020.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.ragingbolt, .sprite-xyicons.raging-bolt {background:transparent url(assets/images/1021.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.ironboulder, .sprite-xyicons.iron-boulder {background:transparent url(assets/images/1022.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.ironcrown, .sprite-xyicons.iron-crown {background:transparent url(assets/images/1023.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+.sprite-xyicons.terapagos {background:transparent url(assets/images/1024.png) no-repeat scroll;width:35px;height:35px;margin-left: 1.5em;zoom: 80%;}
+
 @media only screen and (max-width: 500px) {
     .sprite-xyicons {
         display: inline-block;
